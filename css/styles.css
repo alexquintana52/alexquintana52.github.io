@@ -1,0 +1,177 @@
+/* General Settings Start */
+
+html {
+    scroll-padding: 67px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5e5;
+}
+
+body::before {
+    content: '';
+    display: block;
+    height: 60px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+/* General Settings End */
+
+
+
+/* Global Styles Start */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #0d6efd;
+}
+
+.navbar-dark .navbar-nav .btn_cta a:hover {
+    color:#fff;
+}
+
+.bg-home {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.social-icon a i:hover {
+    transition: all 0.3s ease;
+    color: #0d6efd;
+}
+
+#about {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+#experience {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+#education {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+#works {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+#newsletter {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.div__line {
+    display: none;
+}
+
+.img__cont img {
+    width: 100%;
+    height: 100%;
+}
+
+.img__style {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img__card img:hover {
+    transition: all 0.3s;
+    transform: scale(0.97);
+}
+
+.contact__info {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.contact__info2 {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer span {
+    color: #599cff;
+}
+
+/* Global Styles Start */
+
+
+
+/* Media Queries Start */
+
+@media (max-width: 1200px){
+    html {
+        scroll-padding: 66px;
+    }
+}
+
+@media (max-width: 992px){
+    html {
+        scroll-padding: 64px;
+    }
+}
+
+@media (max-width: 768px){
+    html {
+        scroll-padding: 62px;
+    }
+
+    .works__header h1 {
+        display: none;
+    }
+
+    .div__line {
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 576px){
+    html {
+        scroll-padding: 60px;
+    }
+
+    .works__header h1 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 310px){
+    html {
+        scroll-padding: 59px;
+    }
+
+    .works__header h1 {
+        display: none;
+    }
+}
+
+/* Media Queries End */
